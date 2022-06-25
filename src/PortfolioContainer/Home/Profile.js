@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaFacebookSquare,FaYoutubeSquare, FaGooglePlusSquare, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
+import { BrowserRouter,Routes,Link } from "react-router-dom";
+
 
 function Profile() {
   return (
@@ -7,21 +9,21 @@ function Profile() {
       <div className="profile-paret">
         <div className="profile-details">
             <div className="colz">
-                <a href="#">
+                <Link to="#">
                    <FaFacebookSquare className="fa fa-facebook-square"></FaFacebookSquare>                    
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <FaGooglePlusSquare className="fa fa-google-plus-square"></FaGooglePlusSquare>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <FaInstagramSquare className="fa fa-instagram"></FaInstagramSquare>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <FaYoutubeSquare className="fa fa-youtube-square"></FaYoutubeSquare>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                     <FaTwitterSquare className="fa fa-twitter"></FaTwitterSquare>
-                </a>
+                </Link>
             </div>
         </div>
       </div> 
